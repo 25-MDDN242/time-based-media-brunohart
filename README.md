@@ -7,3 +7,5 @@
 Update this file as you go along to record your progress.
 # DAY ONE REALLY GETTING STRAPPED:
  Just opened the Project and really started trying to figure out what the hell is going on in the code base and generally -> life philosphy is just to keep moving forward putting one foot over the other and not looking back 
+
+ Major Update with Phoebe
