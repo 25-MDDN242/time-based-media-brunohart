@@ -17,6 +17,11 @@ Esseantially there is a circle displaying the hour, minute and second with a rot
 # Major Update on the Clock (writing this on the Clock)
 There was a repivot in the change in concept after reflecting on my meeting with Phoebe. Deciding against going for a grunged out, in your face kind of aesthetic and instead going back to the direction of simplicity and great design as a communicator of function. Returning to a way of obsessing towards a more analog way of using digital technology is my underlying mantra so I got my head back in check and did some rethinking of my clock's affect and decided that pulling form my core design inspiration strings was far more condusive to a great outcome 
 
+Used the following color palette as inspiration (will be working on adding an image in here to show them visually - a visual moodboard if you will)
+
+![ColorPaletteInspo][ColorPaletteBraunStyle]
+[ColorPaletteBraunStyle]: /Users/brunohart/github-classroom/25-MDDN242/time-based-media-brunohart/ColorPaletteBraunStyle.png "Color Palette Braun Style"
+
 ## THE NEW FINAL LOOK AND FEEL AIM
 
 ✅ Minimal, structured, and modular
@@ -42,3 +47,14 @@ There was a repivot in the change in concept after reflecting on my meeting with
 	•	Background set to 245 (light gray) for a refined Apple/Braun-inspired look
 
 I have the clock now in a state that i think looks well designed and in line with my aestehtic choices. I am currently troubleshooting how I get the red seconds clock to tick in a clockwise direction and will be working on adding a simple and elegant alarm function as well as a simple system for changing the color scheme to reflect the time of day. 
+
+Modifications for drawSecondBars
+	•	Uses lerpColor between a dim gray and a bright white.
+	•	Creates a subtle glowing effect for active bars.
+	•	Enhances the aesthetics without overcomplicating the design.
+
+Modifications for drawMinuteDots 
+	•	Better Readability & Clarity – Using a distinct color (#AAB7BF) instead of brightness changes ensures each filled minute is clearly visible, even in different lighting conditions.
+	•	Consistent & Elegant Aesthetic – A muted blue-gray aligns with the minimalist, Braun/Dieter Rams-inspired design, making the display feel more intentional and refined.
+	•	Improved User Intuition – A dedicated color for elapsed minutes makes it easier to read time at a glance, avoiding any ambiguity caused by varying shades of gray.
+
