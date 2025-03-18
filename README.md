@@ -20,7 +20,7 @@ There was a repivot in the change in concept after reflecting on my meeting with
 Used the following color palette as inspiration (will be working on adding an image in here to show them visually - a visual moodboard if you will)
 
 ![ColorPaletteInspo][ColorPaletteBraunStyle]
-[ColorPaletteBraunStyle]: /Users/brunohart/github-classroom/25-MDDN242/time-based-media-brunohart/ColorPaletteBraunStyle.png "Color Palette Braun Style"
+[ColorPaletteBraunStyle]: https://github.com/25-MDDN242/time-based-media-brunohart/blob/main/ColorPaletteBraunStyle.png "Color Palette Braun Style"
 
 ## THE NEW FINAL LOOK AND FEEL AIM
 
