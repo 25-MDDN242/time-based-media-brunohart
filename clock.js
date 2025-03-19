@@ -17,10 +17,15 @@
   let flippingM = false;
   let flipSpeed = 0.08;
   let targetProgress = 1;
+  let bgColor; // Background color for AM/PM of the clock
   
   function draw_clock(obj) {
+    
       let hours = obj.hours; // Get live time
       let minutes = obj.minutes; 
+  
+      // Set background color based on AM/PM
+      bgColor = (hours < 12) ? color("#E15E3E") : color("#315B7B");
   
       background(245);
   
@@ -91,15 +96,13 @@
   
   // 🔄 Draws Individual Flip Digit (Fixed Flip Effect)
   function drawFlipDigit(x, y, w, h, oldDigit, newDigit, flipProgress) {
-
-    textFont(myFont);
-    textSize(40);
-    textAlign(CENTER, CENTER);
-
+      textFont(myFont);
+      textSize(40);
+      textAlign(CENTER, CENTER);
+  
       let cornerRadius = 8;
-      let bgColor = color(30);
       let textColor = color(255);
-      let flipColor = lerpColor(color(30), color(50), flipProgress);
+      let flipColor = lerpColor(bgColor, color(50), flipProgress); // Use bgColor based on AM/PM
   
       console.log("Drawing:", oldDigit, "to", newDigit); // Debugging Output
   
