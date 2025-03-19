@@ -10,10 +10,18 @@ let alarmOverlayCheckbox;
 let alarmOverlaySlider;
 let defaultAlarmSliderValue=15;
 
+let myFont;
+
+function preload() {
+    myFont = loadFont('Geneva.ttf'); // Change to your actual font file
+}
+
 function setup () {
   // create the drawing canvas, save the canvas element
-  var main_canvas = createCanvas(canvasWidth, canvasHeight);
+  var main_canvas = createCanvas(canvasWidth, canvasHeight, WEBGL); // ** Potentially made some bold changes here
   main_canvas.parent('canvasContainer');
+
+  textFont(myFont); // Set the loaded font
 
   alarmOverlaySlider = createSlider(0, 30, defaultAlarmSliderValue);
   alarmOverlaySlider.parent("slider1Container")

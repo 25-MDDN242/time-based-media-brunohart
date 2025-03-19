@@ -58,3 +58,5 @@ Modifications for drawMinuteDots
 	•	Consistent & Elegant Aesthetic – A muted blue-gray aligns with the minimalist, Braun/Dieter Rams-inspired design, making the display feel more intentional and refined.
 	•	Improved User Intuition – A dedicated color for elapsed minutes makes it easier to read time at a glance, avoiding any ambiguity caused by varying shades of gray.
 
+## Updates on the 18th of March 
+I talked with Phoebe about the alarm system and a viusal way of represtenig that and after playing around with the idea of having 0 and 1's appear across screen taking reference from Patrick Lynch's Windows 95 solution to the alarm system I still felt it was more effective to display the alarm simply and elegantly with an evenly distrubuted alarm system that is evokes refernce to the same source material mentioned above with a focus again on color selection still. It also compliments the overall aesthetic choices of the design and keeps the purpose and intent of aesthetic focus paramount and preferential.
