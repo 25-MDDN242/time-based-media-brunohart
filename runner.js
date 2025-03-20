@@ -18,10 +18,10 @@ function preload() {
 
 function setup () {
   // create the drawing canvas, save the canvas element
-  var main_canvas = createCanvas(canvasWidth, canvasHeight, WEBGL); // ** Potentially made some bold changes here
+  var main_canvas = createCanvas(canvasWidth, canvasHeight); // ** Potentially made some bold changes here -> add , WEBGL as a third Paramter 
   main_canvas.parent('canvasContainer');
 
-  textFont(myFont); // Set the loaded font
+  // textFont(myFont); // Set the loaded font -> only needed for WEBGL 
 
   alarmOverlaySlider = createSlider(0, 30, defaultAlarmSliderValue);
   alarmOverlaySlider.parent("slider1Container")
